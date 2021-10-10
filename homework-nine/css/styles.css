@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 60px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Helvetica";
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  /* background-color: indianred; */
+  background-image: url(../images/masko-hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .hero-title {
+  padding-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: "Helvetica";
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.hero .hero-description p {
+  text-align: center;
+  color: white;
+  font-family: "Helvetica";
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.home-container {
+  width: 100%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-container .photo {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+.home-container .photo img {
+  min-height: 400px;
+  min-width: 300px;
+  max-height: 400px;
+  max-width: 300px;
+}
+.home-container .text {
+  width: 50%;
+  min-height: 100%;
+  background-color: #fafafa;
+  padding: 50px;
+}
+.home-container .text p {
+  color: black;
+  font-family: "Helvetica";
+  font-size: 18px;
+}

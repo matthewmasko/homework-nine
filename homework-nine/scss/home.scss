@@ -1,0 +1,39 @@
+.home-container {
+    width: 100%;
+    min-height: 500px;
+    // background-color: indigo;
+    display: flex;
+
+    .photo {
+
+width: 50%;
+height: 100%;
+// background-color: khaki;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 50px;
+
+img {
+    min-height: 400px;
+    min-width: 300px;
+    max-height: 400px;
+    max-width: 300px;
+
+}
+    }
+
+    .text {
+
+width: 50%;
+min-height: 100%;
+background-color: #fafafa;
+padding: 50px;
+
+p {
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+    }
+}
